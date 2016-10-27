@@ -1,0 +1,9 @@
+<?php
+$mysql_host='Localhost';
+$mysql_user='istedb';
+$mysql_pass='istedb';
+$mysql_db='iste';
+if(!@mysql_connect($mysql_host,$mysql_user,$mysql_pass)||!@mysql_select_db($mysql_db)){
+die(mysql_error());
+}
+?>
